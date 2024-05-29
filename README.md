@@ -7,7 +7,7 @@
 
 ## Table of Contents
 
-- [Project Description](#project-description) 
+- [Project Description](#project-description)
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Setting Up the Environment](#setting-up-the-environment)
@@ -82,7 +82,7 @@ The environment is installed when in the terminal shows the "Environment setup i
 * The author provided a volumetric 3D CT data *0002_toload* as well as the manually defined ground truth of the cochlea structure, from both left and right side in *Cochlea.fcsv*. 
 * **Code structure:** 
   * Data_generator.py: Data loading of training and testing data (image & label) generator for all 4 classes, with different data augmentation techiniques. 
-  * SMICNet.py: Architecture of SMICNet. 
+  * SMICNet.py: Architecture of the SMICNet. 
   * Training.py : Traning function to train locally a network from scratch with training data genrerated from the provided volume 0002. 
   * **`SW_application_opensource.ipynb`:** To test model inference performance with the pre-trained network
     * *Section 1: Import libraries*: Import libraries. 
@@ -97,8 +97,8 @@ The environment is installed when in the terminal shows the "Environment setup i
         * Optional: F1 score generation based on 2D images, with different model: To generate Weighted F1 score of different model trained with different quantity of volumes. 
         * Optional: load author provided F1 score CSV, to compare classification performance among different networks : To quicly see the df_f1scores of different provided trained model. 
       * Distance: run on the 3D volume 
-        * **Sliding Window process**: to generate probability map, here needs to wait some mintutes and the generated probability map is large size.
-        * **load trained probability map for calcuate the landamrk coordinates: for 3 classes**: to load the probability map generated. 
+        * Sliding Window process: to generate probability map, here needs to wait some mintutes and the generated probability map is large size.
+        * load trained probability map for calcuate the landamrk coordinates: for 3 classes: to load the probability map generated. 
         * predicted landmark localization: calculate the predicted coordinates by center mass of the probability map. 
         * distance calculation: with 0.3mm image spacing: to calculate the distance in mm between the predicted landmark and the ground truth. 
         * visualisation: compare with the ground truth landmark: Visualize the localization precision on the images. 
