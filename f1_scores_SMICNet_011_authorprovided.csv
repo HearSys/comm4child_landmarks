@@ -1,0 +1,5 @@
+selected Volume,Class,Precision per Class,Recall per Class,F1 per Class,F1 Macro,F1 Micro,F1 Weighted
+['0000'],Apex,1.0,1.0,1.0,1.0,1.0,1.0
+['0000'],Basal,1.0,1.0,1.0,1.0,1.0,1.0
+['0000'],Round window,1.0,1.0,1.0,1.0,1.0,1.0
+['0000'],Background,1.0,1.0,1.0,1.0,1.0,1.0
