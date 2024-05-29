@@ -1,5 +1,6 @@
-.git
 .ipynb_checkpoints
 .jupyter
 .virtual_documents
 .vscode
+*.log
+*.tmp
