@@ -5,18 +5,13 @@ from sklearn.metrics import f1_score, precision_score, recall_score
 numpy.float = float
 numpy.int = numpy.int_
 import random
-import sys
 from itertools import permutations
 from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import seaborn as sns
-import skimage
 import tensorflow
 import tensorflow as tf
-from numpy import array
-from numpy.linalg import norm
 from PIL import Image
 from scipy import ndimage as ndi
 from scipy import optimize as op
@@ -31,7 +26,6 @@ from copy import copy
 from tqdm.notebook import tqdm
 from functools import lru_cache
 import albumentations as aug
-from albumentations.augmentations import functional as F
 from albumentations.core.transforms_interface import DualTransform, ImageOnlyTransform
 
 base_dir= Path("testvolume") # set default path, can replace it with local path

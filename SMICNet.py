@@ -29,29 +29,6 @@ from tensorflow.keras.layers import (
 )
 from tensorflow.keras.models import Model
 import tensorflow as tf
-import os
-from tensorflow.python.client import device_lib
-
-from tensorflow.python.client import device_lib
-
-import logging
-logging.getLogger('tensorflow').setLevel(logging.ERROR)
-tf.config.set_soft_device_placement(True)
-tf.debugging.set_log_device_placement(False)
-
-#enable GPU
-os.environ["KERAS_BACKEND"] = "tensorflow"
-tf.debugging.set_log_device_placement(False)
-sess = tf.compat.v1.Session()
-print(device_lib.list_local_devices())
-print(tf.config.list_physical_devices("GPU"))
-# test if GPU is enabled on local device: macOS m1 mps, Windows GPU
-print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices("GPU")))
-print("Device Name:", tf.test.gpu_device_name())
-print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices("GPU")))
-tf.config.list_physical_devices("GPU")
-
-
  
 def SMICNet_build():
     inputs = Input(shape=(81, 81, 1))# 2D image for the input 
