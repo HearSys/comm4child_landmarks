@@ -12,6 +12,8 @@ authors:
     given-names: "Samuel"
     orcid: https://orcid.org/0000-0002-1509-0585
 year: 2024
-doi: https://doi.org/10.1145/3632047.3632048
+identifiers:
+  - type: doi
+    value: 10.1145/3632047.3632048
 publisher: "Association for Computing Machinery"
 date-released: 2024-05-30
