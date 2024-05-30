@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/807081034.svg)](https://zenodo.org/doi/10.5281/zenodo.11393693)
+
 # Comm4CHILD ESR2 Software Release
 
 <div align="center"><img src="README.assets/1.png" alt="1" style="width:200px;" />
