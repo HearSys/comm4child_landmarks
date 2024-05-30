@@ -1,2 +1,2 @@
 testvolume/*.nrrd filter=lfs diff=lfs merge=lfs -text
-testvolumes/* filter=lfs diff=lfs merge=lfs -text
+testvolume/* filter=lfs diff=lfs merge=lfs -text
