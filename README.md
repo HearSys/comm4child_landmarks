@@ -1,6 +1,6 @@
 # Comm4CHILD ESR2 Software Release
 
-<div align="center"><img src="README.assets/1.png" alt="1" style="zoom:100%;" />
+<div align="center"><img src="README.assets/1.png" alt="1" style="zoom:30%;" />
 <h3> Automatic Landmark Localization in 3D Medical CT Images using deep-learning based neural networks</h3>
 <img src="README.assets/3.png" alt="Screenshot of the automatically located landmark and the ground truth on a CT slice." style="zoom:30%;" /></div>
 
