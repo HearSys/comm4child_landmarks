@@ -84,7 +84,7 @@ The environment is installed when in the terminal shows the "Environment setup i
   * Data_generator.py: Data loading of training and testing data (image & label) generator for all 4 classes, with different data augmentation techiniques. 
   * SMICNet.py: Architecture of the SMICNet. 
   * Training.py : Traning function to train locally a network from scratch with training data genrerated from the provided volume 0002.
-  * **`SW_application_opensource.ipynb`:** To test model inference performance with the pre-trained network
+  * **`SW_application_opensource.ipynb`:** Include all the sub-modules for training (optional) and testing the author provided trained network inference performance.
     * *Section 1: Import libraries*: Import libraries. 
     * *Section 2: Load volumes:* Load the provided data for quick testing or training. 
     * *Section 3: Start the training on the fly*:  Optional, activate it to when need to train a local network from scratch (Release in May 2024: not completed). 
