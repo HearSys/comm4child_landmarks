@@ -1,19 +1,52 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: "Automatic Landmark Localization in 3D Medical CT Images: Few-Shot Learning through Optimized Data Pre-Processing and Network Design."
+title: >-
+  Automatic Landmark Localization in 3D Medical CT Images:
+  Few-Shot Learning through Optimized Data Pre-Processing
+  and Network Design.
+message: 'If you use this software, please cite it as below.'
+type: software
 authors:
-  - family-names: "Wang"
-    given-names: "Yifan"
-  - family-names: "Lenarz
-    given-names: "Thomas"
-  - family-names: "Kral"
-    given-names: "Andrej"
-  - family-names: "John"
-    given-names: "Samuel"
-    orcid: https://orcid.org/0000-0002-1509-0585
-year: 2024
+  - family-names: Wang
+    given-names: Yifan
+  - family-names: Lenarz
+    given-names: Thomas
+  - family-names: Kral
+    given-names: Andrej
+  - family-names: John
+    given-names: Samuel
+    orcid: 'https://orcid.org/0000-0002-1509-0585'
 identifiers:
   - type: doi
     value: 10.1145/3632047.3632048
-publisher: "Association for Computing Machinery"
-date-released: 2024-05-30
+    description: >-
+      Peer reviewed paper published at Association for
+      Computing Machinery
+repository-code: 'https://github.com/HearSys/comm4child_landmarks'
+url: 'https://hoersys.de'
+abstract: >-
+  we present an automatic landmark localization algorithm
+  with few-shot learning capability, designed for 3D CT
+  scans. A four-class classification algorithm SMICNet
+  trained with 2D sub-image patches has been implemented to
+  identify/classify three anatomical landmarks of interest
+  at the cochlea: “apex point”, “basal point”, “round window
+  center”, and an additional class “background”. The
+  algorithm then combined a sliding window approach using
+  the trained classifier to scan the provided region of
+  interest, generating a 3D probability map containing the
+  predicted probabilities for each landmark to localize the
+  3 cochlea landmarks directly in the given 3D CT scan.
+  There are 6 different models, trained with varying number
+  CT volumes, ranging from 1 up to 11 CT volumes. 
+keywords:
+  - tensor-flow
+  - cochlear
+  - temporal-bone
+  - deep-learning
+  - neural-network
+  - landmarks
+license: Apache-2.0
+date-released: '2024-05-30'
