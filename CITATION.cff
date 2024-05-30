@@ -1,15 +1,17 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: Software Release: Automatic Landmark Localization in 3D Medical CT Images: Few-Shot Learning through Optimized Data Pre-Processing and Network Design.
+title: "Automatic Landmark Localization in 3D Medical CT Images: Few-Shot Learning through Optimized Data Pre-Processing and Network Design."
 authors:
-  - family-names: Wang
-    given-names: Yifan
-  - family-names: Lenarz
-    given-names: Thomas
-  - family-names: Kral
-    given-names: Andrej
-  - family-names: John
-    given-names: Samuel
+  - family-names: "Wang"
+    given-names: "Yifan"
+  - family-names: "Lenarz
+    given-names: "Thomas"
+  - family-names: "Kral"
+    given-names: "Andrej"
+  - family-names: "John"
+    given-names: "Samuel"
     orcid: https://orcid.org/0000-0002-1509-0585
 year: 2024
+doi: https://doi.org/10.1145/3632047.3632048
+publisher: "Association for Computing Machinery"
 date-released: 2024-05-30
